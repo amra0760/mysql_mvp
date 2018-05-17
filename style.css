@@ -68,3 +68,8 @@ form, .content{
   border: 1px solid #3c763d;
   margin-bottom: 20px;
 }
+
+.logo {
+  width: 150px;
+  height: 150px;
+}

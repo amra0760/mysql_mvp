@@ -18,6 +18,7 @@
   
   <div class ="header">
       <h2>Home Page</h2>
+      <img src="images/P_Logo1.jpg" class="logo" width="100" height="200"/>
   </div>
   
   <div class="content">
