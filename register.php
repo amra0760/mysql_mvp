@@ -9,7 +9,7 @@
   <body>
   
   <div class ="header">
-      <img src="images/P_Logo1.jpg" class="logo" width="100" height="200" />
+      <img src="images/P_Logo1.jpg" class="logo img-fluid rounded-circle" width="100" height="200" />
       <h2>Register</h2>
   </div>
   

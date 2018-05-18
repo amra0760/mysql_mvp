@@ -42,7 +42,10 @@
             $password = md5($password_1); // encrypt password before storing in database (security)
             $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email','$password')";
             mysqli_query($db, $sql);
-            
+            // log user in
+                $_SESSION['username'] = $username;
+                $_SESSION['success'] = "You are now logged in";
+                header('location: index.php'); // redirect to home page
         }
         
         
